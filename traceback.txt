@@ -1,0 +1,35 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/game/script-poemgame.rpy", line 1, in script
+  File "game/game/script-poemgame.rpy", line 1, in script
+  File "game/game/script-poemgame.rpy", line 17, in <module>
+OSError: Couldn't find file 'D:/trygame/game/game/poemwords.txt'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\bootstrap.py", line 277, in bootstrap
+    renpy.main.main()
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\main.py", line 558, in main
+    renpy.game.context().run(node)
+  File "game/game/script-poemgame.rpy", line 1, in script
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 441, in raise_
+  File "game/game/script-poemgame.rpy", line 1, in script
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ast.py", line 1131, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\python.py", line 1061, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/game/script-poemgame.rpy", line 17, in <module>
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\exports.py", line 2480, in file
+    return open_file(fn, encoding=encoding)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\exports.py", line 2462, in open_file
+    rv = renpy.loader.load(fn)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\loader.py", line 820, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'D:/trygame/game/game/poemwords.txt'.
+
+Windows-10-10.0.22621 AMD64
+Ren'Py 8.0.3.22090809
+Doki Doki Literature Club! (Ren'Py Mod) 1.1.1
+Wed Jan  4 15:05:21 2023

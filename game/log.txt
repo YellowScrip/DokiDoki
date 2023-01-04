@@ -1,0 +1,51 @@
+Wed Jan  4 11:49:57 2023
+Windows-10-10.0.22621
+Ren'Py 8.0.3.22090809
+ 
+
+Bootstrap to the start of init.init took 0.05s
+Early init took 0.00s
+Loader init took 0.04s
+Loading error handling took 0.03s
+Loading script took 2.37s
+Loading save slot metadata. took 0.00s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+
+Full traceback:
+  File "ddlc-renpy-project/game/script-poemgame.rpy", line 1, in script
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ast.py", line 1131, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\python.py", line 1061, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "ddlc-renpy-project/game/script-poemgame.rpy", line 24, in <module>
+TypeError: a bytes-like object is required, not 'str'
+
+While running game code:
+  File "ddlc-renpy-project/game/script-poemgame.rpy", line 1, in script
+  File "ddlc-renpy-project/game/script-poemgame.rpy", line 24, in <module>
+TypeError: a bytes-like object is required, not 'str'
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+
+Full traceback:
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\bootstrap.py", line 277, in bootstrap
+    renpy.main.main()
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\main.py", line 558, in main
+    renpy.game.context().run(node)
+  File "ddlc-renpy-project/game/script-poemgame.rpy", line 1, in script
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 441, in raise_
+  File "ddlc-renpy-project/game/script-poemgame.rpy", line 1, in script
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ast.py", line 1131, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\python.py", line 1061, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "ddlc-renpy-project/game/script-poemgame.rpy", line 24, in <module>
+TypeError: a bytes-like object is required, not 'str'
+
+While running game code:
+  File "ddlc-renpy-project/game/script-poemgame.rpy", line 1, in script
+  File "ddlc-renpy-project/game/script-poemgame.rpy", line 1, in script
+  File "ddlc-renpy-project/game/script-poemgame.rpy", line 24, in <module>
+TypeError: a bytes-like object is required, not 'str'
